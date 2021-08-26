@@ -1,0 +1,46 @@
+.modal, .modal-content {
+    width: 300px;
+}
+
+li:hover,.btn-close:hover {
+    background-color: rgba(63,220,237,255) !important;
+}
+
+.list-group-item,.modal,.modal-content,.list-group-item,.container-fluid,.navbar{
+    background-color: rgb(12,12,12) !important;
+}
+body,.list-group-item,a:link,a:visited,a:hover,a:link{
+    color: white;
+    text-decoration: none;
+}
+.modal-header,.modal-footer,.btn{
+    border-style: none;
+
+}
+.btn-close{
+    background-color: rgba(255, 255, 255, 0.459);
+    margin-top: -30% !important;   
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.250) !important;
+    color:black;
+}
+.list-group-item{
+    cursor: pointer;
+    margin-bottom: 15%;
+    font-size: larger;
+}
+.logos{
+    padding-bottom: 5px;
+}
+body{
+    background-color: rgb(29, 28, 28) !important;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+

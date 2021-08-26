@@ -1,0 +1,27 @@
+#info{
+    display: inline;
+    float: left;
+    margin-right:20px ;
+}
+.div_informacoes{
+    margin-top: 20px;
+}
+#boas_vindas{
+    margin-top: 30px;
+    float: left;
+}
+.container{
+    margin-top: 20px;
+}
+.quadrados{
+    background-color: rgba(255, 255, 255, 0.459) !important;
+    border-radius: 5px;
+    border-style: none !important;
+    margin-bottom: 20px;
+    overflow:auto;
+    height: 200px;
+    margin-right:20px;
+}
+.row{
+    margin-left: 25px;
+}
