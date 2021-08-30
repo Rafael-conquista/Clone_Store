@@ -2,7 +2,7 @@
     width: 300px;
 }
 
-li:hover,.btn-close:hover {
+li:hover,.btn-close:hover,::-webkit-scrollbar-thumb {
     background-color: rgba(63,220,237,255) !important;
 }
 
@@ -22,7 +22,7 @@ body,.list-group-item,a:link,a:visited,a:hover,a:link{
     margin-top: -30% !important;   
 }
 
-.btn{
+.btn,::-webkit-scrollbar{
     background-color: rgba(255, 255, 255, 0.250) !important;
     color:black;
 }
@@ -42,4 +42,19 @@ body{
 
 html{
     overflow-x: hidden;
+    margin-bottom: 50px;
+}
+.navbar, .navbar-light, .bg-light{
+    position:fixed; 
+    width: 100%;  
+    z-index:3;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(63,220,237,0.5) !important;
 }

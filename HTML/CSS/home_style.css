@@ -1,6 +1,5 @@
 #info{
     display: inline;
-    margin-right:20px ;
 }
 #info, #boas_vindas{
     float: left;
@@ -19,7 +18,10 @@
     overflow:auto;
     height: 200px;
     margin-right:20px;
+    
 }
 .row{
     margin-left: 25px;
+    margin-top: 60px;
 }
+

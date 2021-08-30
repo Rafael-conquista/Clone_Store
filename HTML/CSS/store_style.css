@@ -22,7 +22,6 @@ h1{
 .games{
    margin-top: 100px;
    
-   
 }
 .imagem{
    height: 100%;
@@ -33,10 +32,9 @@ h1{
 .comprar{
    float: right;
    background-color: rgba(255, 255, 255, 0.3) !important;
-   color: white;
    
 }
-.comprar:hover{
+.comprar:hover,.desconto{
    background-color: rgba(63,220,237,255) !important;
 }
 #texto{
@@ -44,10 +42,11 @@ h1{
    margin-right: 40px;
 
 }
-.desconto{
-   background-color: rgba(63,220,237,255) !important;
-   margin-top: 15px;
+.desconto,.comprar,.comentario{
    color: white;
+}
+.desconto{
+   margin-top: 15px;
 }
 .comentario{
    float: left;
